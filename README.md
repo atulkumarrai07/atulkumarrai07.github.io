@@ -6,7 +6,7 @@
 
 A developer portfolio featuring **interactive particle networks**, **scroll animations**, and a **cyberpunk dark theme** — built to stand out.
 
-[Live Demo](#) | [Download Resume](#)
+[Live Demo](https://atulkumarrai07.github.io/) | [Download Resume](https://atulkumarrai07.github.io/resume.pdf)
 
 ---
 
@@ -36,8 +36,8 @@ Feature | Description |
 ## Quick Start
 
 ```bash
-git clone https://github.com/atulkumarrai/portfolio.git
-cd portfolio
+git clone https://github.com/atulkumarrai/atulkumarrai07.github.io.git
+cd atulkumarrai07.github.io
 npm install
 npm run dev
 ```
@@ -49,12 +49,24 @@ Open **http://localhost:3000** — that's it.
 ## Deploy to GitHub Pages
 
 ```bash
+npm run build
+git add .
+git commit -m "Update portfolio"
 git push origin main
 ```
 
 That's literally it. The included GitHub Actions workflow (`.github/workflows/deploy.yml`) builds and deploys automatically.
 
 > **One-time setup:** Go to your repo Settings -> Pages -> Source -> GitHub Actions
+>
+> Your site will be available at: **https://atulkumarrai07.github.io/**
+
+### Preview static export locally (optional)
+
+```bash
+npm run build
+npx serve out
+```
 
 ---
 
