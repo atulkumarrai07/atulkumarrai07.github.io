@@ -4,7 +4,7 @@ export const personal = {
   tagline: "Building distributed systems at PlayStation · Ex-AWS · CMU Grad",
   email: "atulkumarrai3@gmail.com",
   linkedin: "https://linkedin.com/in/atulkumarrai",
-  github: "https://github.com/atulkumarrai",
+  github: "https://github.com/atulkumarrai07",
   location: "San Jose, CA",
   summary:
     "Software engineer with 7+ years of experience designing and operating distributed systems across PlayStation, AWS, and enterprise environments. Focused on systems design, service reliability, observability, and performance optimization.",
@@ -86,7 +86,7 @@ export const projects = [
     description:
       "Backend for an Uber-like application leveraging Kafka and Samza for real-time driver/rider matching. Analyzes streams considering preferences, rating, salary, and location for optimal personalized matching.",
     tech: ["Java", "Apache Kafka", "Apache Samza", "Stream Processing"],
-    github: "https://github.com/atulkumarrai",
+    github: "https://github.com/atulkumarrai07",
     live: "",
     featured: false,
   },
@@ -95,7 +95,7 @@ export const projects = [
     description:
       "Deployed 3 microservices for a WeChat-inspired app across Kubernetes clusters on AWS, GCP, and Azure. Created Helm charts for simplified provisioning, updates, and rollbacks.",
     tech: ["Kubernetes", "Helm", "AWS", "GCP", "Azure", "Docker"],
-    github: "https://github.com/atulkumarrai",
+    github: "https://github.com/atulkumarrai07",
     live: "",
     featured: false,
   },
