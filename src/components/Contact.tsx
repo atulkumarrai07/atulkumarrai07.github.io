@@ -4,10 +4,12 @@ import { motion, useInView } from "framer-motion";
 import { personal } from "@/lib/data";
 import { FiMail, FiLinkedin, FiGithub, FiArrowUpRight } from "react-icons/fi";
 
+const githubDisplay = personal.github.replace(/^https?:\/\//, "");
+
 const links = [
   { icon: FiMail, label: "Email", value: personal.email, href: `mailto:${personal.email}`, color: "#00f5ff" },
   { icon: FiLinkedin, label: "LinkedIn", value: "linkedin.com/in/atulkumarrai", href: personal.linkedin, color: "#0a66c2" },
-  { icon: FiGithub, label: "GitHub", value: "github.com/atulkumarrai", href: personal.github, color: "#f0abfc" },
+  { icon: FiGithub, label: "GitHub", value: githubDisplay, href: personal.github, color: "#f0abfc" },
 ];
 
 export default function Contact() {
